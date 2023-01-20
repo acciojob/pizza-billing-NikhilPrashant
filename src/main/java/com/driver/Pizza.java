@@ -50,7 +50,7 @@ public class Pizza {
                 + (isCheeseAdded? "\nExtra Cheese Added: " + 80 : "")
                 + (areToppingsAdded ? "\nExtra Toppings Added: " + (isVeg ? 70: 120) : "")
                 + (isTakeAwayAdded ? "\nPaperbag Added: " + 20 : "")
-                + "\nTotal Price: " + price;
+                + "\nTotal Price: " + price + "\n";
         return this.bill;
     }
 }
